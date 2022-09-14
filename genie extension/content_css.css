@@ -1,0 +1,10 @@
+#genieBtn {
+  position: absolute;
+  /* transform: translate(-100%, -100%); */
+  top: 5%;
+  right: 10px;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  opacity: 9999;
+}

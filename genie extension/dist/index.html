@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./admin/css/admin.css">
+</head>
+<body>
+    <script src="./jquery.js"></script>
+    <script src="./config.js"></script>
+    <script src="./essential-scripts.js"></script>
+    <script src="./admin/js/store-provider.js"></script>
+    <script src="./admin/js/antd.js"></script>
+    <script src="./admin/js/app-handler.js"></script>
+    <script src="./admin/js/common-scripts.js"></script>
+    <script src="./admin/js/templates-scripts.js"></script>
+    <script src="./admin/js/wp-integrations.js"></script>
+<script>
+    wp.data.dispatch('getgenie').setSidebar({
+			open: true,
+			component: 'TemplateListScreen',
+			
+		})
+</script>
+</body>
+</html>
